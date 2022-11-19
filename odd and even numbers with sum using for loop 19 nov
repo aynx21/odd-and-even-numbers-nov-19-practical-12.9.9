@@ -1,0 +1,51 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main() {
+   int numb1,numb2;
+   double sum;
+   string option;
+   
+   cout << " Enter your starting number:\n " ;
+   cin>>numb1;
+   cout << " Enter your ending number : \n "  ;
+   cin>>numb2;
+ 
+   for (  numb1=numb1;numb1<=numb2;numb1=numb1+2) {
+       
+       cout<<numb1<<endl;
+        sum +=numb1;
+   }
+ 
+ if ( numb1 % 2 == 0)
+   {
+       cout << " *| Your Number is Even: |* \n " ;
+   }
+   
+   else{
+       cout<<" *| Your number is Odd |* \n " ;
+   }
+   
+   cout << " Do you want the sum of your numbers? \n " ;
+   cin>>option;
+   
+   if (option=="yes"|| option=="Yes")
+   {
+      
+       cout<<sum;
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+}
