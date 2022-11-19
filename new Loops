@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main() {
+   int numb1,numb2;
+   
+   cout << " Enter your starting number : \n " ;
+   cin>>numb1;
+   cout << " Enter your ending number : \n "  ;
+   cin>>numb2;
+ 
+   for (  numb1=numb1;numb1<=numb2;numb1=numb1+2) {
+       
+       cout<<numb1<<endl;
+   }
+ 
+ if ( numb1=1,3,5,7,9)
+   {
+       cout << " Your Number is odd: \n " ;
+   }
+   
+   else {
+       cout<<"your number is even";
